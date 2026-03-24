@@ -68,16 +68,6 @@ The floating bubble in Android tells you your connection status at a glance:
 
 ---
 
-## 🛠️ Requirements Table
-
-| Feature | Local World (Host) | Local World (Guest) | Servers (IP/Port) |
-| :--- | :--- | :--- | :--- |
-| **Addon Version** | **WORLD** Pack | No Addon Needed | **SERVER** Pack |
-| **Profile WebSocket**| ✅ Must be ON | ❌ Not Required | ❌ Not Required |
-| **Encrypted Websocket**| ❌ Must be OFF | ❌ Not Required | ❌ Not Required |
-
----
-
 ## 🤝 Community & Support
 
 * **Documentation:** Read our easy-to-follow guide [here](https://antoic.netlify.app/docs/vcmc.html).
