@@ -60,8 +60,11 @@ Originally built for **Minecraft Bedrock**, VCMC now also supports **Java server
 |---|---|
 | 📱 Android | [Google Play](https://play.google.com/store/apps/details?id=com.naru.vcmc) |
 | 🖥️ Windows | [Microsoft Store](https://apps.microsoft.com/detail/9N74NFWF305Q) · [GitHub (.exe)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases) |
-| 🐧 Linux | [GitHub (AppImage)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases) |
+| 🍎 macOS | [Web version](https://antoic.com/play/vcmc/) |
+| 🐧 Linux | [Web version](https://antoic.com/play/vcmc/) · [GitHub (AppImage)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases) |
 | 🍎 iOS | Coming soon |
+
+> **Mac & Linux:** use the [web version](https://antoic.com/play/vcmc/) — nothing to install, it runs right in the browser.
 
 ### Minecraft Files
 
