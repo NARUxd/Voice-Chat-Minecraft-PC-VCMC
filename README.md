@@ -98,7 +98,7 @@ Use this when you are hosting or joining a local Minecraft world.
 ### Server Rooms
 Use this for dedicated Bedrock or Java (Geyser) servers.
 
-Enter the server IP and port — VCMC generates the Room ID automatically. Each player pastes the given command in chat once and voice is active.
+You no longer enter an IP or port. The server creates its own VCMC room automatically — each player just adds a room with any name they like, then verifies once inside Minecraft with `/vcmc:verify`. After verifying, your device is remembered and you won't have to repeat it.
 
 ### Floating Bubble (Overlay)
 Once connected, a small floating bubble stays visible over every app including Minecraft. No need to switch apps to manage your mic.
@@ -133,35 +133,46 @@ Tap the bubble to toggle mute. Long-press to reposition it anywhere on screen.
 
 1. Upload the **Server** behavior pack + resource pack to your server.
 2. For non-Aternos servers, add `@minecraft/server-net` to `config/default/permissions.json`.
-3. Players open VCMC → **SERVER** → enter IP and port.
-4. Each player pastes the command shown in the app into Minecraft chat.
+3. Players open VCMC → **SERVER** → add a room with any name.
+4. Each player copies the `/vcmc:verify` command the app shows and pastes it in Minecraft chat (once per device).
 5. ✅ Proximity voice chat is active.
 
 ### Mode 3 — Java Server with Geyser
 
 1. Drop the VCMC `.jar` into your server's `plugins/` folder and restart.
-2. The plugin prints the server IP and Room ID in the console at startup.
-3. Players open VCMC → **SERVER** → enter the IP:port from the console.
+2. The plugin creates the server's VCMC room automatically (you'll see it in the console).
+3. Players open VCMC → **SERVER** → add a room with any name → paste `/vcmc:verify` in chat.
 4. ✅ Works for both Java and Bedrock players on the same server.
 
 ---
 
 ## Commands Reference
 
-### Bedrock Addon
+> **Local World mode has no commands** — the host just pastes the bubble link in the chat. The commands below are for **servers**, where each player connects by verifying once with `/vcmc:verify`.
+
+### Bedrock Addon (Server)
 
 | Command | Description |
 |---|---|
-| `/vcmc:join` | Connect the app room to the server (run once) |
-| `/vcmc:mute @player true` | Force-mute a player (admin only) |
-| `/vcmc:mute @player false` | Restore a player's voice (admin only) |
+| `/vcmc:verify <code>` | Verify your account with the code shown in the app (once per player/device) |
+| `/vcmc:menu` | Open your personal VCMC menu — settings, groups and per-player volume |
+| `/vcmc:admin` | Open the server admin panel (operators only) |
+| `/vcmc:mute <selector> <true\|false>` | Force-mute or restore a player. Example: `/vcmc:mute @a[name=Steve] true` |
+| `/vcmc:reconnect` | Check your connection and force an immediate re-check |
+| `/vcmc:room` | Show the server's internal Room ID (admins / diagnostics) |
+| `/vcmc:join <room_id> [token]` | ⚠️ Legacy/advanced — manually override the saved room. Not the normal flow |
 
-### Java Plugin
+### Java Plugin (Geyser)
 
 | Command | Description |
 |---|---|
-| `/mute <player>` | Silence a player |
-| `/unmute <player>` | Restore a player's voice |
+| `/vcmc:verify "<code>"` | Verify your account with the app's code (paste with quotes) |
+| `/vcmc:menu` | Personal menu in a chest UI: settings, groups, per-player volume |
+| `/vcmc:admin` | Admin panel in a chest UI. Requires OP or `vcmc.admin` |
+| `/vcmc:mute <player\|@a> <true\|false>` | Silence or restore a player |
+| `/vcmc:groups create/join/leave/list` | Create and manage voice groups |
+| `/vcmc:room` | Show the server's internal Room ID |
+| `/vcmc:reconnect` | Check if your app appears connected to the server |
 
 ---
 
