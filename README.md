@@ -2,11 +2,11 @@
 
 <div align="center">
 
-<img src="https://antoic.netlify.app/icons/vcmc.png" width="110" alt="VCMC Logo">
+<img src="https://antoic.com/icons/vcmc.png" width="110" alt="VCMC Logo">
 
 **The easiest proximity voice chat for Minecraft Bedrock and Java**
 
-[📥 Download App](https://antoic.netlify.app/app.html) · [📖 Documentation](https://antoic.netlify.app/docs/vcmc.html) · [💬 Discord](https://discord.gg/HA5gKcpsaq)
+[📥 Download App](https://antoic.com/app.html) · [📖 Documentation](https://antoic.com/docs/vcmc.html) · [💬 Discord](https://discord.gg/HA5gKcpsaq)
 
 [![Android](https://img.shields.io/badge/Android-Google_Play-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.naru.vcmc)
 [![Windows](https://img.shields.io/badge/Windows-Microsoft_Store-0078D7?logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9N74NFWF305Q)
@@ -42,10 +42,13 @@ Originally built for **Minecraft Bedrock**, VCMC now also supports **Java server
 | Dedicated server support | ✅ | Sometimes |
 | Setup time | ~30 seconds | Hours |
 | Floating overlay (control mic in-game) | ✅ | Sometimes |
-| In-game mute indicator on screen | ✅ | ❌ |
-| Nametag mute indicator | ✅ | ❌ |
-| Android + Windows + Linux | ✅ | ❌ |
+| In-game mute indicator on screen | ✅ | ✅ (rare) |
+| Nametag mute indicator | ✅ | ✅ (rare) |
+| **Config synced Minecraft ↔ app** | ✅ | ❌ |
+| Android + Windows + Linux | ✅ | Sometimes |
 | Free | ✅ | Sometimes |
+
+> The one thing no other proximity chat does yet: your in-game VCMC settings sync straight to the app (and back). Most other differences are things competitors *sometimes* have — the linked config is the real standout.
 
 ---
 
@@ -65,7 +68,7 @@ Originally built for **Minecraft Bedrock**, VCMC now also supports **Java server
 | File | Link |
 |---|---|
 | 🟩 Bedrock Addon (.mcaddon) | [Voice-Chat-Minecraft-Bedrock-VCMC-Addon/releases](https://github.com/narucreations1-hub/Voice-Chat-Minecraft-Bedrock-VCMC-Addon/releases) |
-| ☕ Java Plugin (.jar) | [Voice-Chat-Minecraft-Geyser-Plugin/releases](https://github.com/narucreations1-hub/Voice-Chat-Minecraft-Geyser-Plugin/releases) |
+| ☕ Java Plugin (.jar) | [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/vcmc-voice-chat-for-mc-pluggin) |
 
 ---
 
@@ -111,7 +114,7 @@ Once connected, a small floating bubble stays visible over every app including M
 
 Tap the bubble to toggle mute. Long-press to reposition it anywhere on screen.
 
-### In-Game Indicators *(unique to VCMC)*
+### In-Game Indicators *(rare in other apps)*
 - A **message appears on your Minecraft screen** every time you mute or unmute
 - A **symbol next to your nametag** shows your mic state to nearby players in real time
 
@@ -180,13 +183,13 @@ Tap the bubble to toggle mute. Long-press to reposition it anywhere on screen.
 
 Step-by-step guide with screenshots, troubleshooting and all configuration options:
 
-📖 **[antoic.netlify.app/docs/vcmc.html](https://antoic.netlify.app/docs/vcmc.html)**
+📖 **[antoic.com/docs/vcmc.html](https://antoic.com/docs/vcmc.html)**
 
 ---
 
 ## About the Project
 
-VCMC is part of **[Antoic Projects](https://antoic.netlify.app)** — apps and tools for Minecraft created by **Naru**.
+VCMC is part of **[Antoic Projects](https://antoic.com)** — apps and tools for Minecraft created by **Naru**.
 
 This is a **solo project**. Updates may take time, but every bug report makes the app better. Thank you for your patience and support 🙏
 
