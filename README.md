@@ -10,7 +10,7 @@
 
 [![Android](https://img.shields.io/badge/Android-Google_Play-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.naru.vcmc)
 [![Windows](https://img.shields.io/badge/Windows-Microsoft_Store-0078D7?logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9N74NFWF305Q)
-[![Linux](https://img.shields.io/badge/Linux-AppImage-E95420?logo=linux&logoColor=white)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases)
+[![Web App](https://img.shields.io/badge/Mac_and_Linux-Web_App-5865F2?logo=firefoxbrowser&logoColor=white)](https://antoic.com/play/vcmc/)
 
 </div>
 
@@ -61,7 +61,7 @@ Originally built for **Minecraft Bedrock**, VCMC now also supports **Java server
 | 📱 Android | [Google Play](https://play.google.com/store/apps/details?id=com.naru.vcmc) |
 | 🖥️ Windows | [Microsoft Store](https://apps.microsoft.com/detail/9N74NFWF305Q) · [GitHub (.exe)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases) |
 | 🍎 macOS | [Web version](https://antoic.com/play/vcmc/) |
-| 🐧 Linux | [Web version](https://antoic.com/play/vcmc/) · [GitHub (AppImage)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases) |
+| 🐧 Linux | [Web version](https://antoic.com/play/vcmc/) |
 | 🍎 iOS | Coming soon |
 
 > **Mac & Linux:** use the [web version](https://antoic.com/play/vcmc/) — nothing to install, it runs right in the browser.
