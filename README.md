@@ -8,6 +8,7 @@
 
 [📥 Download App](https://antoic.com/app.html) · [📖 Documentation](https://antoic.com/docs/vcmc.html) · [💬 Discord](https://discord.gg/HA5gKcpsaq)
 
+[![iOS](https://img.shields.io/badge/iOS-App_Store-0A84FF?logo=apple&logoColor=white)](https://apps.apple.com/mx/app/vcmc-voice-chat-for-mc/id6784284005)
 [![Android](https://img.shields.io/badge/Android-Google_Play-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.naru.vcmc)
 [![Windows](https://img.shields.io/badge/Windows-Microsoft_Store-0078D7?logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9N74NFWF305Q)
 [![Web App](https://img.shields.io/badge/Mac_and_Linux-Web_App-5865F2?logo=firefoxbrowser&logoColor=white)](https://antoic.com/play/vcmc/)
@@ -45,7 +46,7 @@ Originally built for **Minecraft Bedrock**, VCMC now also supports **Java server
 | In-game mute indicator on screen | ✅ | ✅ (rare) |
 | Nametag mute indicator | ✅ | ✅ (rare) |
 | **Config synced Minecraft ↔ app** | ✅ | ❌ |
-| Android + Windows + Linux | ✅ | Sometimes |
+| iOS + Android + Windows + Linux | ✅ | Sometimes |
 | Free | ✅ | Sometimes |
 
 > The one thing no other proximity chat does yet: your in-game VCMC settings sync straight to the app (and back). Most other differences are things competitors *sometimes* have — the linked config is the real standout.
@@ -62,7 +63,7 @@ Originally built for **Minecraft Bedrock**, VCMC now also supports **Java server
 | 🖥️ Windows | [Microsoft Store](https://apps.microsoft.com/detail/9N74NFWF305Q) · [GitHub (.exe)](https://github.com/NARUxd/Voice-Chat-Minecraft-PC-VCMC/releases) |
 | 🍎 macOS | [Web version](https://antoic.com/play/vcmc/) |
 | 🐧 Linux | [Web version](https://antoic.com/play/vcmc/) |
-| 🍎 iOS | Coming soon |
+| 🍎 iOS | [App Store](https://apps.apple.com/mx/app/vcmc-voice-chat-for-mc/id6784284005) |
 
 > **Mac & Linux:** use the [web version](https://antoic.com/play/vcmc/) — nothing to install, it runs right in the browser.
 
