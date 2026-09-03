@@ -1,4 +1,4 @@
-# VCMC for PC 2.0
+# VCMC for PC 2.2
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 
 [Download latest release](../../releases/latest) · [Documentation](https://antoic.com/docs/vcmc.html) · [Changelog](https://antoic.com/changelog/vcmc/) · [Discord](https://discord.gg/HA5gKcpsaq)
 
-[![Version](https://img.shields.io/badge/VCMC-2.0-5865F2)](https://antoic.com/changelog/vcmc/2.0.0.html)
+[![Version](https://img.shields.io/badge/VCMC-2.2-5865F2)](https://antoic.com/changelog/vcmc/)
 [![Windows](https://img.shields.io/badge/Windows-Installer-0078D7?logo=windows&logoColor=white)](../../releases/latest)
 [![Microsoft Store](https://img.shields.io/badge/Microsoft-Store-107C10?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9N74NFWF305Q)
 
@@ -33,6 +33,7 @@ It works with:
 | Minecraft mode | Required component |
 |---|---|
 | Bedrock world | VCMC app + Addon World + Resource Pack |
+| Minecraft Realm | VCMC app + Addon World + Addon Realms + Resource Pack |
 | Dedicated Bedrock server | VCMC app + Addon Server + Resource Pack |
 | Java or Java/Geyser server | VCMC app + VCMC Java plugin |
 
@@ -78,7 +79,7 @@ The Addon creates and restores the server room automatically.
 
 Java and Bedrock players can share the same voice room when the server uses Geyser.
 
-## VCMC 2.0 Features
+## VCMC 2.2 Features
 
 - Distance and spatial voice
 - Secure World subrooms
@@ -94,6 +95,11 @@ Java and Bedrock players can share the same voice room when the server uses Geys
 - Custom-dimension support
 - Improved P2P, SFU, connection, and reconnection behavior
 - Compatibility with older Addons, plugins, and app versions through the legacy protocol
+- Minecraft Realms support through a local cross-device proxy
+- Self-deafen and improved voice controls
+- Multitrack recording
+- Expanded advanced settings and clearer tutorials
+- Korean language support
 
 ## World Verification in VCMC 2.0
 
@@ -138,7 +144,7 @@ For more help, use the [official documentation](https://antoic.com/docs/vcmc.htm
 
 ## Release Notes
 
-- [VCMC 2.0 changelog](https://antoic.com/changelog/vcmc/2.0.0.html)
+- [VCMC changelog](https://antoic.com/changelog/vcmc/)
 - [Complete version history](https://antoic.com/changelog/vcmc/)
 
 VCMC is a free, independent project created by Naru. It is not affiliated with Mojang Studios. Minecraft is a trademark of Mojang AB.
